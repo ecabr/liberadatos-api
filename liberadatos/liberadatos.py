@@ -1,6 +1,5 @@
 from flask import Flask, jsonify
 import pandas as pd
-import numpy as np
 
 app = Flask(__name__)
 app.config["DEBUG"] = True
